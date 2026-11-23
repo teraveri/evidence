@@ -1,0 +1,21 @@
+{
+  "wire_version": 1,
+  "profile": "azure-snp-vtpm-ima/1",
+  "nonce_base64": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+  "certificate_der_base64": "MIIEyTCCA7GgAwIBAgIBADANBgkqhkiG9w0BAQsFADCCARkxEjAQBgNVBAMMCWxvY2FsaG9zdDESMBAGA1UECgwJR0VOWFQgTFREMQswCQYDVQQLDAJJVDELMAkGA1UEBhMCR0IxFzAVBgNVBAgMDkNhbWJyaWRnZXNoaXJlMRAwDgYDVQQHDAdIaW54dG9uMRwwGgYJKoZIhvcNAQkBFg1pbmZvQGdlbnh0LmFpMUEwPwYDVQQQDDhBQjMxOCwgQmlvZGF0YSBJbm5vdmF0aW9uIENlbnRyZSwgV2VsbGNvbWUgR2Vub21lIENhbXB1czEQMA4GA1UEEQwHQ0IxMDFEUjEdMBsGA1UEDwwUUHJpdmF0ZSBPZ3JhbmlzYXRpb24xGDAWBgoJkiaJk/IsZAEZFghnZW54dC5haTAeFw0yNjA5MjMxNTM4MzJaFw0yNzA5MjMxNTM4MzJaMIIBGTESMBAGA1UEAwwJbG9jYWxob3N0MRIwEAYDVQQKDAlHRU5YVCBMVEQxCzAJBgNVBAsMAklUMQswCQYDVQQGEwJHQjEXMBUGA1UECAwOQ2FtYnJpZGdlc2hpcmUxEDAOBgNVBAcMB0hpbnh0b24xHDAaBgkqhkiG9w0BCQEWDWluZm9AZ2VueHQuYWkxQTA/BgNVBBAMOEFCMzE4LCBCaW9kYXRhIElubm92YXRpb24gQ2VudHJlLCBXZWxsY29tZSBHZW5vbWUgQ2FtcHVzMRAwDgYDVQQRDAdDQjEwMURSMR0wGwYDVQQPDBRQcml2YXRlIE9ncmFuaXNhdGlvbjEYMBYGCgmSJomT8ixkARkWCGdlbnh0LmFpMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1t3NDWEV6raEAcvrYQQlJDEr/y3oYwLklYqb0MgKKlhoU3AQ0SDH1YXpTyqjnag0vROgyBIhG8ycBeIa1lmVHHT6YGmJ4qESrIe7g0qwlHCmOToUWzR4mnakirg8iHRHAsHsC3M3liGDr+dUK1FVePPq+qIFxTxI1wuV2O14aSi3PbmNvvIow5Eo5d6rBtelQivfIoRUqjdod/H5CxmUCMAGidj9SEm9c6wdGm1ZTdE3c/W3zps8NCrdgYk/kVCosK9wFoE3cx4dJHFJ3XtVEWzW5+FbtR1NOeonzVKd7yTidruFgrMVjx7GXnn5gw8hNPNEQ1m/ZvWNENtZGlFxEQIDAQABoxgwFjAUBgNVHREEDTALgglsb2NhbGhvc3QwDQYJKoZIhvcNAQELBQADggEBAJJJEA+vnMympYp2yssFV1xnPmbLj/f55lcM87yW45gYcRdI2etfyj8qGIzv3W8TeiCDYaZ/3Ds9ljtULA9E6TReM7HpaXq2dNj7Hai/HdLDqggsztD+ALRs9q5m53VabbHOGtFeWRntgyU8SBA/Q5F9KUOSQnToYhCWaFjYwZ8gHacUcOX5HqzEVTP9uWaGfHZgTk4XSYrdQlbo6ychPTujeRmnxFSRlptxEb5cZeL4vruLkwAJDU+3qeE6fLLfTl/ZVTAsTzsDPNkXxOTrh+IpzqPJCip2+w3bJOS21CVNVzi/n//zN2bYQKSxJUpyzWsq89Kx3RREE3Jev4+qpg8=",
+  "ima_measurements": [
+    {
+      "name": "boot_aggregate",
+      "PCR": 10,
+      "template_hash": "0101010101010101010101010101010101010101",
+      "ima_template": "ima-ng",
+      "filedata_alg": "sha256",
+      "filedata_hash": "0202020202020202020202020202020202020202020202020202020202020202",
+      "filename_hint": "boot_aggregate"
+    }
+  ],
+  "serialized_ima_utf8": "[{\"name\":\"boot_aggregate\",\"PCR\":10,\"template_hash\":\"0101010101010101010101010101010101010101\",\"ima_template\":\"ima-ng\",\"filedata_alg\":\"sha256\",\"filedata_hash\":\"0202020202020202020202020202020202020202020202020202020202020202\",\"filename_hint\":\"boot_aggregate\"}]",
+  "ima_sha256": "9518777f12ddd645392dd7cf9b739b81b24188b7d486fe31b33c9e341fcba95e",
+  "quote_extra_data_sha256": "c23f3c393a09ab5c80dfdf27c3d8aac5e7c66069895d4f226cb74b67fa7e9512",
+  "provenance": "Synthetic IMA values and public staging certificate; expected digests independently computed with Python hashlib/json; no TPM signature is claimed."
+}
